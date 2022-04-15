@@ -29,7 +29,7 @@ body {
 .container {
     width: 63rem;
     height: auto;
-    margin: 15rem;
+    margin: 10rem;
     display: grid;
     grid-template-rows: auto 1fr;
     background-color: white;
