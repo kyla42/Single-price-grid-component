@@ -22,11 +22,20 @@ body {
     font-family: 'Karla', sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #d8d8d8;
     letter-spacing: -0.03rem;
 }
 
 .container {
+    width: 144rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
     width: 63rem;
     height: auto;
     margin: 10rem;
@@ -41,7 +50,7 @@ body {
 }
 
 .title {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     font-weight: 700;
     color: var(--custom_Cyan);
     padding-bottom: 2.2rem;
@@ -51,7 +60,7 @@ body {
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--custom_Bright_Yellow);
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.2rem;
 }
 
 .font_a {
