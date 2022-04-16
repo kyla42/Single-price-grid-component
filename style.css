@@ -161,12 +161,7 @@ body {
     }
 
     .second {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-            "sub"
-            "info";
+        display: block;
     }
 
     .sm_title_a {
