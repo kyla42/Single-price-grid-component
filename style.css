@@ -148,10 +148,17 @@ body {
 }
 
 @media (max-width: 600px) {
+    .container {
+        width: 37.5rem;
+    }
+
+    .box {
+        margin: 3rem;
+    }
+
     .main {
         padding: 3rem;
     }
-
 
     .second {
         display: grid;
