@@ -49,7 +49,7 @@ body {
     padding: 4rem;
 }
 
-.title {
+h1 {
     font-size: 2.4rem;
     font-weight: 700;
     color: var(--custom_Cyan);
