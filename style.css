@@ -18,6 +18,7 @@ html {
 }
 
 body {
+    height: 100vh;
     font-size: 1.6rem;
     font-family: 'Karla', sans-serif;
     display: flex;
@@ -29,7 +30,6 @@ body {
 
 .container {
     width: 144rem;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ body {
 .box {
     width: 63rem;
     height: auto;
-    margin: 10rem;
+    /* margin: 10rem; */
     display: grid;
     grid-template-rows: auto 1fr;
     background-color: white;
@@ -151,6 +151,7 @@ h1 {
 @media (max-width: 600px) {
     .container {
         width: 37.5rem;
+        height: auto;
     }
 
     .box {
