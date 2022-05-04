@@ -22,14 +22,13 @@ body {
     font-size: 1.6rem;
     font-family: 'Karla', sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #E6EFF6;
     letter-spacing: -0.03rem;
 }
 
 .container {
     width: 144rem;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +38,6 @@ body {
 .box {
     width: 63rem;
     height: auto;
-    /* margin: 10rem; */
     display: grid;
     grid-template-rows: auto 1fr;
     background-color: white;
